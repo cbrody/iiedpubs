@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0.8",
+        "php": ">=7.3.0",
         "composer/installers": "^1.0.20",
         "cweagans/composer-patches": "^1.0",
         "drupal-composer/drupal-scaffold": "^2.0.1",
@@ -19,11 +19,19 @@
         "drupal/console": "^1",
         "drupal/core": "^8.6.15",
         "drush-ops/behat-drush-endpoint": "^9.3",
-        "drush/drush": "~8.3",
+        "drush/drush": "^9",
         "pantheon-systems/quicksilver-pushback": "^2",
         "rvtraveller/qs-composer-installer": "^1.1",
         "webflo/drupal-core-strict": "^8.6.15",
-        "zaporylie/composer-drupal-optimizations": "^1.0"
+        "zaporylie/composer-drupal-optimizations": "^1.0",
+        "drupal/migrate_tools": "^4.4",
+        "drupal/migrate_plus": "^4.2",
+        "drupal/migrate_devel": "^1.2@beta",
+        "drupal/migrate_source_csv": "^3.1",
+        "drupal/devel": "^2.1",
+        "drupal/admin_toolbar": "^2.0",
+        "drupal/config_devel": "^1.4",
+        "drupal/pathauto": "^1.5"
     },
     "require-dev": {
         "behat/behat": "3.*",
@@ -116,7 +124,7 @@
         "preferred-install": "dist",
         "sort-packages": true,
         "platform": {
-            "php": "7.0.8"
+            "php": "7.3.11"
         }
     }
 }

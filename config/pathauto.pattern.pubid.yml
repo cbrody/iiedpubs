@@ -1,0 +1,22 @@
+uuid: da506d33-c38b-4549-a939-65a251637b8d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pubid
+label: PubID
+type: 'canonical_entities:node'
+pattern: '[node:field_pubid]'
+selection_criteria:
+  4b70a890-0045-4705-8147-5522acf6b6af:
+    id: node_type
+    bundles:
+      publication: publication
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 4b70a890-0045-4705-8147-5522acf6b6af
+selection_logic: and
+weight: -5
+relationships: {  }
