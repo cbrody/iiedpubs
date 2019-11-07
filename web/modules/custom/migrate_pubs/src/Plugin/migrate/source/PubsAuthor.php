@@ -77,7 +77,7 @@ class PubsAuthor extends SqlBase {
     // As we did for favorite beers in the user migration, we need to explode
     // the multi-value country names.
     if ($value = $row->getSourceProperty('Author') && $row->getSourceProperty('IsCanonical') == 1) {
-      $pieces = explode(' ', $row->getSourceProperty('Author'));
+      $pieces = explode(' ', $value);
       $last_word = array_pop($pieces);
       $row->setSourceProperty('Surname', $last_word);
     }
