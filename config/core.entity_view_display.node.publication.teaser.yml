@@ -27,4 +27,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_authors: true
+  field_pubid: true
+  field_tags: true

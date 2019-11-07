@@ -3,6 +3,7 @@
 namespace Drupal\migrate_pubs\Plugin\migrate\source;
 
 use Drupal\migrate\Plugin\migrate\source\SqlBase;
+use Drupal\migrate\Row;
 
 /**
  * Source plugin for pubs content.
