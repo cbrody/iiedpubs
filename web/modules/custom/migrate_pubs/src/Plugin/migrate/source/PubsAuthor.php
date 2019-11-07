@@ -69,12 +69,12 @@ class PubsAuthor extends SqlBase {
     // source row here, as an array of 'style' values (the unique ID for
     // the beer_term migration).
     /* $terms = $this->select('migrate_example_beer_topic_node', 'bt')
-      ->fields('bt', ['style'])
-      ->condition('bid', $row->getSourceProperty('bid'))
-      ->execute()
-      ->fetchCol();
+    ->fields('bt', ['style'])
+    ->condition('bid', $row->getSourceProperty('bid'))
+    ->execute()
+    ->fetchCol();
     $row->setSourceProperty('terms', $terms);
-    */
+     */
     // As we did for favorite beers in the user migration, we need to explode
     // the multi-value country names.
     if ($value = $row->getSourceProperty('Author') && $row->getSourceProperty('IsCanonical') == 1) {
