@@ -1,0 +1,19 @@
+uuid: 234ea853-049c-4e58-9e0b-312b70e84eee
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_surname
+    - node.type.author
+id: node.author.field_surname
+field_name: field_surname
+entity_type: node
+bundle: author
+label: Surname
+description: 'Sort name'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

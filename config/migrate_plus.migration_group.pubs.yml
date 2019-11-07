@@ -1,0 +1,15 @@
+uuid: 4c3ef3d2-8949-4672-b2da-a1cdbcea94a9
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - migrate_pubs
+id: pubs
+label: 'Publications Library Imports'
+description: 'Migration from pubscopy.iied.org'
+source_type: 'Custom tables'
+module: null
+shared_configuration:
+  source:
+    key: pubscopy

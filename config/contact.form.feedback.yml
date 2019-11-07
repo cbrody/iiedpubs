@@ -1,4 +1,4 @@
-uuid: 96ed2d0c-d5c8-4cb2-947a-aa3959b64b71
+uuid: 5e8bab5a-b2f5-48dc-827d-306f7949665b
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - chris@cbrody.com
+  - webmaster@iied.org
 reply: ''
 weight: 0
 message: 'Your message has been sent.'
