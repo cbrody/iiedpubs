@@ -41,12 +41,12 @@ Feature: Content
   Scenario: Create many terms
     Given "tags" terms:
     | name    |
-    | Tag one |
-    | Tag two |
+    | 1Tag |
+    | 2Tag |
     And I am logged in as a user with the "administrator" role
     When I go to "admin/structure/taxonomy/manage/tags/overview"
-    Then I should see "Tag one"
-    And I should see "Tag two"
+    Then I should see "1Tag"
+    And I should see "2Tag"
 
   @api
   Scenario: Create nodes with specific authorship
